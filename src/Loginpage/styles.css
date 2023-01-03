@@ -1,0 +1,218 @@
+.side1{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: hsl(198, 94%, 94%);}
+
+  .wel{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+
+
+  }
+.side2{
+    display: flex;
+    width: 100%;
+}
+.img{
+    width: 200px;
+}
+ .details{
+   display: flex;
+   margin: 4px;
+   
+ }
+ .input-box input::placeholder{
+   font-size: 0.8rem;
+   
+ }
+ .input-box2 input::placeholder{
+   font-size: 0.8rem;
+  
+ }
+ input[type=email], select{
+   padding: 5px 8px;
+ }
+ 
+ input[type=password], select{
+   padding: 5px 8px;
+ }
+ input[type=checkbox] {
+   transform: scale(2);
+ }
+ 
+ .input-box input{
+   font-size: 20px;
+   width: 30rem;
+   height: 2rem;
+   margin: 4px;
+  } 
+  .hiddentext p{
+   margin-bottom: 15px;
+   color: grey
+  }
+ .input-box2 input{
+  font-size: 20px;
+  width: 30rem;
+  height: 2rem;
+  margin: 4px;
+ } 
+ .captcha-box{
+    /* border: 2px solid black;  */
+   width: 20rem;
+   height: 5rem;
+    margin-top: 2rem; 
+   background-color: #f9f9f9;
+    margin-left: 4px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ 
+ .verification-box{
+   width: 10rem;
+   height: 2rem;
+    /* border: 2px solid black;  */
+   display: flex;
+   flex-direction: column;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+ 
+ }
+ .verification-box1 input[type=checkbox] {
+   transform: scale(1.2);
+ }
+  /* .verification-box input .checkbox{
+   height: 50px;
+   width: 20px;
+ } */
+ .recaptchaimage{
+  
+   /* border: 2px solid black; */
+   margin-left: 5rem;
+ }
+ .recaptchaimage img{
+   height: 50px;
+   width: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   
+ }
+ p{
+   color:#009ef7;
+    margin-left: 8px; 
+ }
+ .verification-box1{
+    margin-top: 10px;
+    margin-left: 4px; 
+  display: flex;
+ width: 20rem; 
+  height: 2rem;
+   /* border: 2px solid black; */
+ }
+ .forgotpassword{
+   display: flex; 
+   align-items: center;
+  margin-left: 15px;
+  }
+  .btn{
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+   /* margin-left: 15px; */
+  }
+  .btn1{
+    border: 2px white;
+   width: 12rem;
+   height: 3rem;
+   border-radius: 5px;
+   background-color:   #ecf8ff;
+   font-family: 'Rajdhani', sans-serif;
+  font-size: medium;
+  margin-left: 4px;
+  color:  #009ef7;
+   display: flex;
+  flex-direction: row;
+  justify-content: center; 
+ padding-top: 10px;
+  
+  /* color: white; */
+  }
+  p{
+   padding-top: 2px;
+  }
+ .btn1:active{
+   background-color:  #009ef7;
+   color: white;
+ }
+ .btn1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  
+  
+  .btn2{
+    border: 2px solid white;
+   width: 12rem;
+   height: 3rem;
+   border-radius: 5px;
+   margin-left: 1rem; 
+  background-color:   #ecf8ff;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: medium;
+   color:  #009ef7;
+   display: flex;
+  flex-direction: row;
+  justify-content: center; 
+   padding-top: 10px; 
+  
+  }
+  .btn2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn2:active{
+   background-color:  #009ef7;
+   color: white;
+  
+ }
+@media (min-width: 900px) and (max-width: 1199px){
+    .side1 {
+        display: flex;
+        height: 100vh;
+    }
+    .side2 {
+        display: flex;
+        height: 100vh;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1535px){
+    .side1 {
+        display: flex;
+        height: 100vh;
+    }
+    .side2 {
+        display: flex;
+        height: 100vh;
+    }
+}
+@media (min-width : 1536px){
+    .side1 {
+        display: flex;
+        height: 100vh;
+        width: 45%;
+    }
+    .side2 {
+        display: flex;
+        height: 100vh;
+    }
+}
